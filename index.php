@@ -16,12 +16,12 @@
   <!--"Skills" grid goes here - directing, editing, cinematography, motion graphics, whatever else-->
   <table>
       <tr>
-          <td>Directing</td>
-          <td>Cinematograpy</td>
+          <td><h3>Directing</h3></td>
+          <td><h3>Cinematograpy</h3></td>
       </tr>
       <tr>
-          <td>Motion Graphics</td>
-          <td>Editing</td>
+          <td><h3>Motion Graphics</h3></td>
+          <td><h3>Editing</h3></td>
       </tr>
   </table>
 

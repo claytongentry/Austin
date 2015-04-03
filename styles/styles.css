@@ -3,7 +3,11 @@
 }
 
 h1 {
-  font-family: Droid Sans, sans-serif;
+  font-family: Molengo, sans-serif;
+}
+
+p {
+  font-family: Lekton, serif;
 }
 
 #nav {
@@ -19,6 +23,10 @@ table {
 td {
   text-align: center;
   border: 1px solid black;
+}
+
+h3 {
+  font-family: Molengo, sans-serif;
 }
 
 ul {
