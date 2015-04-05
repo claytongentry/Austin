@@ -42,6 +42,7 @@ h2 {
 i {
   color: white;
   margin-top: 50px;
+  z-index: 0;
 }
 
 p {
@@ -89,6 +90,7 @@ p {
   width: 100%;
   background-color: black;
   margin-bottom: 0px;
+  z-index: 1;
 }
 
 li {
@@ -126,13 +128,14 @@ td {
   width: 200px;
   height: 200px;
   text-align: center;
-  border: 1px solid black;
+  border: 3px solid black;
   padding: 20px;
   border-radius: 20%;
 }
 
 h3 {
-  font-family: Molengo, sans-serif;
+  font-family: Didact Gothic, sans-serif;
+  font-size: 24px;
 }
 
 ul {
@@ -155,5 +158,5 @@ li {
 }
 
 #footer > p {
-  font-size: 14px;
+  font-size: 16px;
 }
