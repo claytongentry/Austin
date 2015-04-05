@@ -19,8 +19,7 @@
       <i class="fa fa-chevron-down fa-5x"></i>
   </div>
 
-  <!--
-  "Skills" grid goes here - directing, editing, cinematography, motion graphics, whatever else
+  <!-- "Skills" grid goes here - directing, editing, cinematography, motion graphics, whatever else -->
   <div id="skills">
       <h2>My Skills</h2>
       <table>
@@ -43,14 +42,13 @@
       </table>
   </div>
 
-  Footer - copyright, date, Facebook, email link perhaps
+  <!--Footer - copyright, date, Facebook, email link perhaps-->
   <div id="footer">
-      <p>Site Production &copy; Clayton Gentry 2015</p>
       <ul>
         <li><a target="_blank" href="https://www.facebook.com/austin.curzon">Facebook</a></li>
         <li><a href="mailto:awcurzon@gmail.com">Email</a></li>
       </ul>
+      <p>Site Production &copy; Clayton Gentry 2015</p>
   </div>
-  -->
 
 <?php require('templates/footer.php'); ?>
