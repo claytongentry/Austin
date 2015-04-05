@@ -1,23 +1,107 @@
 body {
   overflow-x: hidden;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/splash.png");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 0px;
+  margin: 0px;
 }
 
+
 #splash {
+  margin-top: 250px;
   text-align: center;
+  margin-left: auto; margin-right: auto;
+  line-height: 300%;
 }
 
 h1 {
-  font-family: Molengo, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 120px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+i {
+  color: white;
+  margin-top: 50px;
 }
 
 p {
-  font-family: Lekton, serif;
+  font-family: Didact Gothic, serif;
+  font-size: 24px;
+  color: white;
+}
+
+#reel {
+  padding: 0px;
+  margin-left: auto; margin-right: auto;
+  margin-top: 50px;
+  width: 100px;
+  height: 40px;
+  border: 2px solid black;
+  transition: 0.2s;
+}
+
+#reel > p {
+  line-height: 40px;
+  margin: 0px;
+  vertical-align: middle;
+  transition: 0.2s;
+}
+
+#reel:hover {
+  background-color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#reel:hover > p {
+  color: black;
+  transition: 0.2s;
 }
 
 #nav {
+  margin-top: 0px;
+  top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
   text-align: right;
-  margin-right: 50px; margin-left: 50px;
+  vertical-align: middle;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 0px;
+}
+
+li {
+  font-family: Didact Gothic, sans-serif;
+  margin: 0px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+li > a:hover {
+  color: rgb(135, 50, 25);
+  transition: 0.2s;
+}
+
+a {
+  text-decoration: none;
+  height: 100%;
+  color: white;
+  vertical-align: middle;
+  transition: 0.2s;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
 }
 
 table {
@@ -45,6 +129,10 @@ ul {
 
 li {
   display: inline;
+}
+
+#skills {
+  background-color: white;
 }
 
 #footer {
