@@ -28,26 +28,42 @@
       <table>
           <tr>
               <td>
-                  <h3>Directing</h3>
+                  <figure class = "tint">
+                      <img src = "images/Dir_PHeader.png"/>
+                      <figcaption>Directing</figcaption>
+                  </figure>
               </td>
               <td>
-                  <h3>Cinematography</h3>
+                  <figure class = "tint">
+                      <img src = "images/Cine_PHeader.png"/>
+                      <figcaption>Cinematography</figcaption>
+                  </figure>
+              </td>
+              <td>
+                  <figure class = "tint">
+                      <img src = "images/MotionG_PHeader.png"/>
+                      <figcaption>Motion Graphics</figcaption>
+                  </figure>
               </td>
           </tr>
           <tr>
               <td>
-                  <h3>Motion Graphics</h3>
+                  <figure class = "tint">
+                      <img src = "images/Edit_PHolder.png"/>
+                      <figcaption>Editing</figcaption>
+                  </figure>
               </td>
               <td>
-                  <h3>Editing</h3>
-              </td>
-          </tr>
-          <tr>
-              <td>
-                  <h3>VFX</h3>
+                  <figure class = "tint">
+                      <img src = "images/VFX_PHeader.png"/>
+                      <figcaption>VFX</figcaption>
+                  </figure>
               </td>
               <td>
-                  <h3>Gaffing</h3>
+                  <figure class = "tint">
+                      <img src = "images/Gaff_PHeader.png"/>
+                      <figcaption>Gaffing</figcaption>
+                  </figure>
               </td>
           </tr>
       </table>
