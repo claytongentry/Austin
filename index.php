@@ -2,6 +2,9 @@
 
   <!--Nav bar w/ About, CV, Contact - would suggest having it start below the splash page, then maybe stick to the top of the screen on scroll-->
   <ul id="nav">
+      <!-- <div class = "left">
+          <p>AC</p>
+      </div> -->
       <li><a href="#">About</a></li>
       <li><a href="#">Resume</a></li>
       <li><a href="#">Contact</a></li>
@@ -39,14 +42,22 @@
                   <h3>Editing</h3>
               </td>
           </tr>
+          <tr>
+              <td>
+                  <h3>VFX</h3>
+              </td>
+              <td>
+                  <h3>3D Animation</h3>
+              </td>
+          </tr>
       </table>
   </div>
 
   <!--Footer - copyright, date, Facebook, email link perhaps-->
   <div id="footer">
       <ul>
-        <li><a target="_blank" href="https://www.facebook.com/austin.curzon">Facebook</a></li>
-        <li><a href="mailto:awcurzon@gmail.com">Email</a></li>
+        <li><a target="_blank" href="https://www.facebook.com/austin.curzon"><i class="fa fa-facebook fa-2x"></i></a></li>
+        <li><a href="mailto:awcurzon@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
       </ul>
       <p>Site Production &copy; Clayton Gentry 2015</p>
   </div>

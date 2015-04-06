@@ -130,7 +130,6 @@ td {
   text-align: center;
   border: 3px solid black;
   padding: 20px;
-  border-radius: 20%;
 }
 
 h3 {
@@ -155,6 +154,16 @@ li {
 #footer {
   padding: 10px;
   text-align: center;
+}
+
+#footer i {
+  margin-top: 0px;
+  transition: 0.2s;
+}
+
+#footer i:hover {
+  color: rgb(135, 50, 25);
+  transition: 0.2s;
 }
 
 #footer > p {
