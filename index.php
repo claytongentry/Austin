@@ -29,19 +29,19 @@
           <tr>
               <td>
                   <figure class = "tint">
-                      <img src = "images/Dir_PHeader.png"/>
+                      <img src = "images/Dir_PHeader_bw.png"/>
                       <figcaption>Directing</figcaption>
                   </figure>
               </td>
               <td>
                   <figure class = "tint">
-                      <img src = "images/Cine_PHeader.png"/>
+                      <img src = "images/Cine_PHeader_bw.png"/>
                       <figcaption>Cinematography</figcaption>
                   </figure>
               </td>
               <td>
                   <figure class = "tint">
-                      <img src = "images/MotionG_PHeader.png"/>
+                      <img src = "images/MotionG_PHeader_bw.png"/>
                       <figcaption>Motion Graphics</figcaption>
                   </figure>
               </td>
