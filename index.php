@@ -33,16 +33,14 @@
               <td>
                   <h3>Cinematography</h3>
               </td>
-          </tr>
-          <tr>
               <td>
                   <h3>Motion Graphics</h3>
               </td>
+          </tr>
+          <tr>
               <td>
                   <h3>Editing</h3>
               </td>
-          </tr>
-          <tr>
               <td>
                   <h3>VFX</h3>
               </td>
