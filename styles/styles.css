@@ -122,13 +122,14 @@ a:visited {
 table {
   margin-left: auto;
   margin-right: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 td {
   width: 200px;
   height: 200px;
   text-align: center;
-  border: 3px solid black;
 }
 
 figure {
@@ -141,6 +142,7 @@ figure {
 figure > img {
   height: 100%;
   width: 100%;
+  display: block;
 }
 
 figcaption {
@@ -170,7 +172,7 @@ figcaption {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: rgba(125,25,12, 0.7);
+	background: rgba(125,25,12, 0.9);
 	-moz-transition: background .3s linear;
 	-webkit-transition: background .3s linear;
 	-o-transition: background .3s linear;

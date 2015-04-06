@@ -25,7 +25,7 @@
   <!-- "Skills" grid goes here - directing, editing, cinematography, motion graphics, whatever else -->
   <div id="skills">
       <h2>My Skills</h2>
-      <table>
+      <table border="0" cellpadding="0" cellspacing = "0">
           <tr>
               <td>
                   <figure class = "tint">
