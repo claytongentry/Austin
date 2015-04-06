@@ -24,7 +24,7 @@
 
   <!-- "Skills" grid goes here - directing, editing, cinematography, motion graphics, whatever else -->
   <div id="skills">
-      <h2>My Skills</h2>
+      <!-- <h2>My Skills</h2> -->
       <table border="0" cellpadding="0" cellspacing = "0">
           <tr>
               <td>
@@ -49,19 +49,19 @@
           <tr>
               <td>
                   <figure class = "tint">
-                      <img src = "images/Edit_PHolder.png"/>
+                      <img src = "images/Edit_PHolder_bw.png"/>
                       <figcaption>Editing</figcaption>
                   </figure>
               </td>
               <td>
                   <figure class = "tint">
-                      <img src = "images/VFX_PHeader.png"/>
+                      <img src = "images/VFX_PHeader_bw.png"/>
                       <figcaption>VFX</figcaption>
                   </figure>
               </td>
               <td>
                   <figure class = "tint">
-                      <img src = "images/Gaff_PHeader.png"/>
+                      <img src = "images/Gaff_PHeader_bw.png"/>
                       <figcaption>Gaffing</figcaption>
                   </figure>
               </td>
