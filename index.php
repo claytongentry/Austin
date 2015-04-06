@@ -47,7 +47,7 @@
                   <h3>VFX</h3>
               </td>
               <td>
-                  <h3>3D Animation</h3>
+                  <h3>Gaffing</h3>
               </td>
           </tr>
       </table>
