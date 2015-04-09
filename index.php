@@ -1,15 +1,5 @@
 <?php require('templates/header.php'); ?>
 
-  <!--Nav bar w/ About, CV, Contact - would suggest having it start below the splash page, then maybe stick to the top of the screen on scroll-->
-  <ul id="nav">
-      <!-- <div class = "left">
-          <p>AC</p>
-      </div> -->
-      <li><a href="#">About</a></li>
-      <li><a href="#">Resume</a></li>
-      <li><a href="#">Contact</a></li>
-  </ul>
-
   <!--Big pretty fixed splash page here-->
   <div id="splash">
       <h1>Austin Curzon</h1>
@@ -67,15 +57,6 @@
               </td>
           </tr>
       </table>
-  </div>
-
-  <!--Footer - copyright, date, Facebook, email link perhaps-->
-  <div id="footer">
-      <ul>
-        <li><a target="_blank" href="https://www.facebook.com/austin.curzon"><i class="fa fa-facebook fa-2x"></i></a></li>
-        <li><a href="mailto:awcurzon@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
-      </ul>
-      <p>Site Production &copy; Clayton Gentry 2015</p>
   </div>
 
 <?php require('templates/footer.php'); ?>
