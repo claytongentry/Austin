@@ -11,14 +11,16 @@
       </a>
       <i class="fa fa-chevron-down fa-5x"></i>
   </div>
+
   <div class = "divider"></div>
+
   <!-- "Skills" grid goes here - directing, editing, cinematography, motion graphics, whatever else -->
   <div id="skills">
       <!-- <h2>My Skills</h2> -->
-      <table border="0" cellpadding="0" cellspacing = "0">
+      <table id = "grid" border="0" cellpadding="0" cellspacing = "0">
           <tr>
               <td>
-                  <figure class = "tint">
+                  <figure class = "tint" onclick = "play(directing)" >
                       <img src = "images/Dir_PHeader_bw.png"/>
                       <figcaption>Directing</figcaption>
                   </figure>
@@ -57,6 +59,8 @@
               </td>
           </tr>
       </table>
-  </div>
 
+      <div id = "video">
+      </div>
+  </div>
 <?php require('templates/footer.php'); ?>
