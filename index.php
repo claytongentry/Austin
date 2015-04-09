@@ -11,7 +11,7 @@
       </a>
       <i class="fa fa-chevron-down fa-5x"></i>
   </div>
-
+  <div class = "divider"></div>
   <!-- "Skills" grid goes here - directing, editing, cinematography, motion graphics, whatever else -->
   <div id="skills">
       <!-- <h2>My Skills</h2> -->
