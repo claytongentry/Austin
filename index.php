@@ -20,13 +20,13 @@
       <table id = "grid" border="0" cellpadding="0" cellspacing = "0">
           <tr>
               <td>
-                  <figure class = "tint" onclick = "play(directing)" >
+                  <figure class = "tint" onclick = "playVideo('directing')" >
                       <img src = "images/Dir_PHeader_bw.png"/>
                       <figcaption>Directing</figcaption>
                   </figure>
               </td>
               <td>
-                  <figure class = "tint">
+                  <figure class = "tint" onclick = "playVideo('cinematography')">
                       <img src = "images/Cine_PHeader_bw.png"/>
                       <figcaption>Cinematography</figcaption>
                   </figure>

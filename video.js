@@ -1,10 +1,26 @@
 function closeVideo() {
     document.getElementById("video").style.display = "none";
-    console.log("Video closed!");
+    $("#grid").fadeIn("300");
 }
 
-// function play(reel) {
-//   switch (reel) {
-//     case 'directing':
-//   }
-// }
+function playVideo(reel) {
+    $("#grid").fadeOut("300");
+    $("#video").fadeIn("300");
+
+    // switch (reel) {
+    //     case 'directing':
+    //       break;
+    //     case 'cinematography':
+    //       break;
+    //     case 'motion_graphics':
+    //       break;
+    //     case 'editing':
+    //       break;
+    //     case 'vfx':
+    //       break;
+    //     case 'gaffing':
+    //       break;
+    //     default:
+    //       break;
+    // }
+}
