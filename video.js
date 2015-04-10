@@ -1,14 +1,15 @@
 function closeVideo() {
     document.getElementById("video").style.display = "none";
-    document.getElementById("grid").style.display = "block";
+    $("#grid").fadeIn("300");
 }
 
 function playVideo(reel) {
     document.getElementById("grid").style.display = "none";
-    document.getElementById("video").style.display = "block";
+    $("#video").fadeIn("300");
 
     // switch (reel) {
     //     case 'directing':
+    //       Insert Vimeo link
     //       break;
     //     case 'cinematography':
     //       break;
