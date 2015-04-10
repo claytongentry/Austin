@@ -4,7 +4,7 @@
   <div id="splash">
       <h1>Austin Curzon</h1>
       <p>Filmmaker &bull; After Effects Pro &bull; Damn Good Pal</p>
-      <a href="#">
+      <a href="#"> <!--Vimeo link-->
           <div id="reel">
               <p>Reel</p>
           </div>
@@ -61,6 +61,8 @@
       </table>
 
       <div id = "video">
+        <iframe src="https://player.vimeo.com/video/39951666" width = "500" height = "281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <button id = "closeBtn" onclick="closeVideo()">Close</button>
       </div>
   </div>
 <?php require('templates/footer.php'); ?>

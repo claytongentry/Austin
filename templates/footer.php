@@ -6,6 +6,6 @@
             </ul>
             <p>Site Production &copy; Clayton Gentry 2015</p>
         </div>
-        <script src = "../video.js"></script>
+        <script src = "video.js"></script>
     </body>
 </html>
