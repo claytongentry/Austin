@@ -1,11 +1,11 @@
 function closeVideo() {
     document.getElementById("video").style.display = "none";
-    $("#grid").fadeIn("300");
+    document.getElementById("grid").style.display = "block";
 }
 
 function playVideo(reel) {
-    $("#grid").fadeOut("300");
-    $("#video").fadeIn("300");
+    document.getElementById("grid").style.display = "none";
+    document.getElementById("video").style.display = "block";
 
     // switch (reel) {
     //     case 'directing':
