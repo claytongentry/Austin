@@ -24,7 +24,7 @@ function playVideo(reel) {
             });
             break;
         case 'motion_graphics':
-            $.getJSON('http://www.vimeo.com/api/oembed.json?url=' + encodeURIComponenet('//') + '&width=800&callback=?', function(data){
+            $.getJSON('http://www.vimeo.com/api/oembed.json?url=' + encodeURIComponent('//') + '&width=800&callback=?', function(data){
               $("#video").html(data.html);
               $("#video").append(close_button);
             });
