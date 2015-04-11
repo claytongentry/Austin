@@ -32,7 +32,7 @@
                   </figure>
               </td>
               <td>
-                  <figure class = "tint">
+                  <figure class = "tint" onclick = "playVideo('motion_graphics')">
                       <img src = "images/MotionG_PHeader_bw.png"/>
                       <figcaption>Motion Graphics</figcaption>
                   </figure>
@@ -40,19 +40,19 @@
           </tr>
           <tr>
               <td>
-                  <figure class = "tint">
+                  <figure class = "tint" onclick = "playVideo('editing')">
                       <img src = "images/Edit_PHolder_bw.png"/>
                       <figcaption>Editing</figcaption>
                   </figure>
               </td>
               <td>
-                  <figure class = "tint">
+                  <figure class = "tint" onclick = "playVideo('vfx')">
                       <img src = "images/VFX_PHeader_bw.png"/>
                       <figcaption>VFX</figcaption>
                   </figure>
               </td>
               <td>
-                  <figure class = "tint">
+                  <figure class = "tint" onclick = "playVideo('gaffing')">
                       <img src = "images/Gaff_PHeader_bw.png"/>
                       <figcaption>Gaffing</figcaption>
                   </figure>
@@ -61,8 +61,6 @@
       </table>
 
       <div id = "video">
-        <iframe src="https://player.vimeo.com/video/39951666" width = "500" height = "281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        <button id = "closeBtn" onclick="closeVideo()">Close</button>
       </div>
   </div>
 <?php require('templates/footer.php'); ?>
