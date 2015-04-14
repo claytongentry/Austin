@@ -7,14 +7,12 @@ function closeVideo() {
 
 function playVideo(reel) {
     document.getElementById("grid").style.display = "none";
-    $("#video").fadeIn("300");
-
     // http://stackoverflow.com/questions/6805297/using-jquery-to-dynamically-load-vimeo-videos
     switch (reel) {
         case 'directing':
             $.getJSON('http://www.vimeo.com/api/oembed.json?url=' + encodeURIComponent('http://vimeo.com/7100569') + '&width=800&callback=?', function(data){
-                    $('#video').html(data.html);
-                    $('#video').append(close_button);
+                $('#video').html(data.html);
+                $('#video').append(close_button);
             });
             break;
         case 'cinematography':
@@ -25,29 +23,31 @@ function playVideo(reel) {
             break;
         case 'motion_graphics':
             $.getJSON('http://www.vimeo.com/api/oembed.json?url=' + encodeURIComponent('//') + '&width=800&callback=?', function(data){
-              $("#video").html(data.html);
-              $("#video").append(close_button);
+                $("#video").html(data.html);
+                $("#video").append(close_button);
             });
             break;
         case 'editing':
-          $.getJSON('http://www.vimeo.com/api/oembed.json?url=' + encodeURIComponent('//') + '&width=800&callback=?', function(data){
-              $("#video").html(data.html);
-              $("#video").append(close_button);
-          });
+            $.getJSON('http://www.vimeo.com/api/oembed.json?url=' + encodeURIComponent('//') + '&width=800&callback=?', function(data){
+                $("#video").html(data.html);
+                $("#video").append(close_button);
+            });
           break;
         case 'vfx':
-          $.getJSON('http://www.vimeo.com/api/oembed.json?url=' + encodeURIComponent('//') + '&width=800&callback=?', function(data){
-              $("#video").html(data.html);
-              $("#video").append(close_button);
-          });
+            $.getJSON('http://www.vimeo.com/api/oembed.json?url=' + encodeURIComponent('//') + '&width=800&callback=?', function(data){
+                $("#video").html(data.html);
+                $("#video").append(close_button);
+            });
           break;
         case 'gaffing':
-          $.getJSON('http://www.vimeo.com/api/oembed.json?url=' + encodeURIComponent('//') + '&width=800&callback=?', function(data){
-              $("#video").html(data.html);
-              $("#video").append(close_button);
-          });
+            $.getJSON('http://www.vimeo.com/api/oembed.json?url=' + encodeURIComponent('//') + '&width=800&callback=?', function(data){
+                $("#video").html(data.html);
+                $("#video").append(close_button);
+            });
           break;
         default:
           break;
     }
+
+    $("#video").delay(200).fadeIn(100);
 }
