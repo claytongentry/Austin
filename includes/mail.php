@@ -3,7 +3,7 @@
     // Ensure form filled out correctly
     if (!empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["msg"])) {
 
-        // Collect info
+        // Collect info from form
         $to = "austinwcurzon@gmail.com";
         $subject = "Excuse me! New message: ".$_POST["name"];
         $message = $_POST["msg"];
@@ -11,12 +11,14 @@
         $headers = "Reply to: ".$_POST["email"];
 
         // Validate mail and send w/ success check
-        if (strstr($_POST["email"], '@') == false) || ((mail($to, $subject, $message, $headers) == false)  {
+        if (strstr($_POST["email"], '@') == false) {
 
-            header("Location: ~http://awcurzon.com/apologize.php");
+            header("Location: localhost/~claytongentry/Austin/apologize.php");
             exit;
 
         }
+
+        mail($to, $subject, $message, $headers);
 
 ?>
 
@@ -33,7 +35,7 @@
         <h4>Thanks!</h4>
         <p>I check my email multiple times a day. Expect a response pretty soon.</p>
         <br/>
-        <a href = "../"><p>Home</p></a>
+        <a href = "index.php"><p>Home</p></a>
     </div>
   </body>
 </html>

@@ -13,7 +13,7 @@
           steady and you filled out the form correctly.</p>
           <p>If you did both of those, it's probably my fault. Sorry about that!
           Just email me the old-fashioned way: <a href="mailto:claytongentry2017@u.northwestern.edu" style = "color: gray">claytongentry2017@u.northwestern.edu</a>.</p>
-          <a href = "../"><p>Home</p></a>
+          <a href = "index.php"><p>Home</p></a>
       </div>
   <body>
 </html>
