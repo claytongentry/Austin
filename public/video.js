@@ -49,5 +49,5 @@ function playVideo(reel) {
           break;
     }
 
-    $("#video").delay(200).fadeIn(100);
+    $("#video").delay(250).fadeIn(100);
 }
