@@ -2,11 +2,13 @@ var close_button = "<br/><button id = 'closeBtn' onclick='closeVideo()'>Close</b
 
 function closeVideo() {
     document.getElementById("video").style.display = "none";
+    $("#video").html("");
     $("#grid").fadeIn("300");
 }
 
 function playVideo(reel) {
     document.getElementById("grid").style.display = "none";
+
     // http://stackoverflow.com/questions/6805297/using-jquery-to-dynamically-load-vimeo-videos
     switch (reel) {
         case 'directing':
@@ -32,22 +34,22 @@ function playVideo(reel) {
                 $("#video").html(data.html);
                 $("#video").append(close_button);
             });
-          break;
+            break;
         case 'vfx':
             $.getJSON('http://www.vimeo.com/api/oembed.json?url=' + encodeURIComponent('//') + '&width=800&callback=?', function(data){
                 $("#video").html(data.html);
                 $("#video").append(close_button);
             });
-          break;
+            break;
         case 'gaffing':
             $.getJSON('http://www.vimeo.com/api/oembed.json?url=' + encodeURIComponent('//') + '&width=800&callback=?', function(data){
                 $("#video").html(data.html);
                 $("#video").append(close_button);
             });
-          break;
+            break;
         default:
-          break;
+            break;
     }
 
-    $("#video").delay(250).fadeIn(100);
+    $("#video").fadeIn(50);
 }
