@@ -54,6 +54,13 @@ i {
   color: white;
   margin-top: 50px;
   z-index: 0;
+  transition: 0.2s;
+}
+
+i:hover {
+  color: rgb(135, 165, 168);
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 p {
@@ -243,11 +250,6 @@ li {
 
 #footer i {
   margin-top: 0px;
-  transition: 0.2s;
-}
-
-#footer i:hover {
-  color: rgb(135, 165, 168);
   transition: 0.2s;
 }
 
