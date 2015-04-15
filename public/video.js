@@ -2,6 +2,8 @@ var close_button = "<br/><button id = 'closeBtn' onclick='closeVideo()'>Close</b
 
 function closeVideo() {
     document.getElementById("video").style.display = "none";
+
+    // Test this
     $("#video").html("");
     $("#grid").fadeIn("300");
 }
@@ -51,5 +53,5 @@ function playVideo(reel) {
             break;
     }
 
-    $("#video").fadeIn(50);
+    $("#video").fadeIn();
 }
