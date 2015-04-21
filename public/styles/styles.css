@@ -27,6 +27,9 @@ form {
   z-index: 2;
 }
 
+.section {
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
 #splash {
   height: 65vh;
@@ -44,6 +47,7 @@ h1 {
 }
 
 h2 {
+  margin: 0px;
   text-align: center;
   font-family: Open Sans, sans-serif;
   font-size: 80px;
@@ -223,7 +227,7 @@ li {
   padding-top: 3px;
 }
 
-#closeBtn {
+.btn {
   font-family: Didact Gothic, serif;
   font-size: 24px;
   color: white;
@@ -234,11 +238,36 @@ li {
   transition: 0.2s;
 }
 
-#closeBtn:hover {
+.btn:hover {
   color: black;
   background-color: rgba(255, 255, 255, 1);
   transition: 0.2s;
   cursor: pointer;
+}
+
+#contact {
+  padding: 20px;
+}
+
+input {
+  width: 170px;
+  height: 20px;
+  padding: 10px;
+  margin: 3px;
+  margin-bottom: 6px;
+  margin-top: 0px;
+  font-family: Didact Gothic, sans-serif;
+  font-size: 14px;
+}
+
+textarea {
+  font-family: Didact Gothic, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+}
+
+#submit {
+
 }
 
 #footer {

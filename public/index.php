@@ -16,7 +16,7 @@
   <div class = "divider"></div>
 
   <!-- "Skills" grid goes here - directing, editing, cinematography, motion graphics, whatever else -->
-  <div id="skills">
+  <div class = "section" id="skills">
       <!-- <h2>My Skills</h2> -->
       <table id = "grid" border="0" cellpadding="0" cellspacing = "0">
           <tr>
@@ -63,5 +63,17 @@
 
       <div id = "video">
       </div>
+
+  </div>
+
+  <div class = "divider"></div>
+  <div class = "section" id = "contact">
+      <h2>Contact me</h2>
+      <form id = "contact" method = "post" action = <?php echo htmlspecialchars('mail.php')?>>
+          <input type = "text" name = "name" placeholder = "Name"></input>
+          <input type = "text" name = "email" placeholder = "Email"></input><br/>
+          <textarea id = "msg" rows = "6" cols = "60" placeholder = "Your message here..."></textarea><br/>
+          <input type = "submit" class = "btn" value = "Send" style = "padding: 0px;"></input>
+      </form>
   </div>
 <?php require('templates/footer.php'); ?>

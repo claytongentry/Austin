@@ -1,4 +1,4 @@
-var close_button = "<br/><button id = 'closeBtn' onclick='closeVideo()'>Close</button>";
+var close_button = "<br/><button class = 'btn' onclick='closeVideo()'>Close</button>";
 
 function closeVideo() {
     document.getElementById("video").style.display = "none";

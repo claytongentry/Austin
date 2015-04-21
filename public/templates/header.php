@@ -17,5 +17,4 @@
             </div> -->
             <li><a href="#">About</a></li>
             <li><a href="#">Resume</a></li>
-            <li><a href="contact.php">Contact</a></li>
         </ul>
