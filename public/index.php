@@ -70,8 +70,8 @@
   <div class = "section" id = "contact">
       <h2>Contact me</h2>
       <form id = "contact" method = "post" action = <?php echo htmlspecialchars('mail.php')?>>
-          <input type = "text" name = "name" placeholder = "Name"></input>
-          <input type = "text" name = "email" placeholder = "Email"></input><br/>
+          <input type = "text" name = "name" id = "name" placeholder = "Name"></input>
+          <input type = "text" name = "email" id = "email" placeholder = "Email"></input><br/>
           <textarea id = "msg" rows = "6" cols = "60" placeholder = "Your message here..."></textarea><br/>
           <input type = "submit" class = "btn" value = "Send" style = "padding: 0px;"></input>
       </form>
