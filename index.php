@@ -19,10 +19,10 @@
 
       <div id = "tabs_container">
           <ul id = "reel_tabs">
-            <li class = "hvr-sweep-to-top">Directing</li>
-            <li class = "hvr-sweep-to-top">Editing</li>
-            <li class = "hvr-sweep-to-top">Cinematography</li>
-            <li class = "hvr-sweep-to-top">VFX</li>
+            <li class = "hvr-rectangle-out">Directing</li>
+            <li class = "hvr-rectangle-out">Editing</li>
+            <li class = "hvr-rectangle-out">Cinematography</li>
+            <li class = "hvr-rectangle-out">VFX</li>
           </ul>
       </div>
 
