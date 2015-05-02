@@ -74,34 +74,6 @@ p {
   color: white;
 }
 
-/*#reel {
-  padding: 0px;
-  margin-left: auto; margin-right: auto;
-  margin-top: 50px;
-  width: 100px;
-  height: 40px;
-  border: 3px solid white;
-  transition: 0.2s;
-}*/
-/*
-#reel > p {
-  line-height: 40px;
-  margin: 0px;
-  vertical-align: middle;
-  transition: 0.2s;
-}
-
-#reel:hover {
-  background-color: white;
-  transition: 0.2s;
-  cursor: pointer;
-}*/
-
-/*#reel:hover > p {
-  color: black;
-  transition: 0.2s;
-}*/
-
 #nav {
   margin-top: 0px;
   top: 0px;
@@ -236,7 +208,7 @@ li {
   color: white;
   width: 100px;
   height: 40px;
-  line-height: 34px;
+  line-height: 40px;
   padding: 0px;
   margin-left: auto; margin-right: auto;
   border: 3px solid white;
@@ -253,6 +225,10 @@ li {
   color: black;
   transition: 0.2s;
   cursor: pointer;
+}
+
+.btn:hover > p {
+  color: black;
 }
 
 #submit_btn {
@@ -285,10 +261,6 @@ textarea {
   font-family: Didact Gothic, sans-serif;
   font-size: 14px;
   padding: 10px;
-}
-
-#submit {
-
 }
 
 #footer {

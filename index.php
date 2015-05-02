@@ -5,7 +5,7 @@
       <h1>Austin Curzon</h1>
       <p>Filmmaker &bull; After Effects Pro &bull; Damn Good Pal</p>
       <a href="#"> <!--Vimeo link-->
-          <div class = "btn" id="reel">
+          <div class = "btn">
               <p>Reel</p>
           </div>
       </a>
