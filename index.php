@@ -19,15 +19,15 @@
 
       <div id = "tabs_container">
           <ul id = "reel_tabs">
-            <li class = "hvr-rectangle-out">Directing</li>
-            <li class = "hvr-rectangle-out">Editing</li>
-            <li class = "hvr-rectangle-out">Cinematography</li>
-            <li class = "hvr-rectangle-out">VFX</li>
+            <li class = "hvr-rectangle-out" onclick = "playVideo('directing')">Directing</li>
+            <li class = "hvr-rectangle-out" onclick = "playVideo('editing')">Editing</li>
+            <li class = "hvr-rectangle-out" onclick = "playVideo('cinematography')">Cinematography</li>
+            <li class = "hvr-rectangle-out" onclick = "playVideo('vfx')">VFX</li>
           </ul>
       </div>
 
       <div id = "video">
-        <p>
+        <p id = "video_instructions">
           <i class="fa fa-arrow-left fa-5x"></i>
           <br/>
           Select a reel to play

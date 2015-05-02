@@ -1933,6 +1933,15 @@
 }
 
 /* Rectangle Out */
+
+.money {
+  display: none;
+}
+
+.money:hover {
+  display: block;
+}
+
 .hvr-rectangle-out {
   display: inline-block;
   vertical-align: middle;
@@ -1943,12 +1952,13 @@
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background: black;
+  background: green;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
 .hvr-rectangle-out:before {
   content: "";
   position: absolute;
@@ -1967,6 +1977,7 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {
   color: white;
 }

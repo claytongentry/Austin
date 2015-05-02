@@ -1,15 +1,14 @@
 var close_button = "<br/><button class = 'btn' onclick='closeVideo()'>Close</button>";
 
 function closeVideo() {
-    document.getElementById("video").style.display = "none";
+    document.getElementById("video_instructions").style.display = "block";
 
-    // Test this
     $("#video").html("");
-    $("#grid").fadeIn("300");
+    $("#video_instructions").show();
 }
 
 function playVideo(reel) {
-    document.getElementById("grid").style.display = "none";
+    document.getElementById("video_instructions").style.display = "none";
 
     // http://stackoverflow.com/questions/6805297/using-jquery-to-dynamically-load-vimeo-videos
     switch (reel) {
