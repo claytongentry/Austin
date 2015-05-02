@@ -190,16 +190,46 @@ li {
   display: inline;
 }
 
-#skills {
-  background-color: rgba(255, 255, 255, 0.5);
+#reels {
+  height: 500px;
+  overflow: hidden;
+  background-color: black;
+}
+
+#tabs_container {
+  width: 150px;
+  float: left;
+}
+
+#reel_tabs {
+  margin: 0px;
+  height: 500px;
+}
+
+#reel_tabs > li {
+  display: list-item;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px;
+  border-bottom: 1px solid black;
   text-align: center;
-  height: 640px;
+  height: 25%;
+  line-height: 125px;
+  background-color: white;
+}
+
+.hvr-sweep-to-top {
+  background-color: green;
 }
 
 #video {
+  overflow: hidden;
+  height: 100%;
   text-align: center;
-  display: none;
-  padding-top: 10px;
+}
+
+#video > p {
+  padding-top: 60px;
 }
 
 .btn {

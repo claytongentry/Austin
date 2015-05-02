@@ -10,12 +10,35 @@
           </div>
       </a>
       <!--http://stackoverflow.com/questions/15158937/jquery-jump-or-scroll-to-certain-position-div-or-target-on-the-page-from-button-->
-      <a class = "jumper" href = "#skills"><i class="fa fa-chevron-down fa-5x"></i></a>
+      <a class = "jumper" href = "#reels"><i class="fa fa-chevron-down fa-5x"></i></a>
   </div>
 
   <div class = "divider"></div>
 
-  <!-- "Skills" grid goes here - directing, editing, cinematography, motion graphics, whatever else -->
+  <div id = "reels">
+
+      <div id = "tabs_container">
+          <ul id = "reel_tabs">
+            <li class = "hvr-sweep-to-top">Directing</li>
+            <li class = "hvr-sweep-to-top">Editing</li>
+            <li class = "hvr-sweep-to-top">Cinematography</li>
+            <li class = "hvr-sweep-to-top">VFX</li>
+          </ul>
+      </div>
+
+      <div id = "video">
+        <p>
+          <i class="fa fa-arrow-left fa-5x"></i>
+          <br/>
+          Select a reel to play
+        </p>
+      </div>
+
+  </div>
+
+
+
+  <!--"Skills" grid goes here - directing, editing, cinematography, motion graphics, whatever else -->
   <!-- <div class = "section" id="skills">
       <h2>My Skills</h2>
       <table id = "grid" border="0" cellpadding="0" cellspacing = "0">
@@ -46,11 +69,6 @@
               </td>
           </tr>
       </table> -->
-
-      <div id = "video">
-      </div>
-
-  </div>
 
   <div class = "divider"></div>
   <div class = "section" id = "contact">
