@@ -16,8 +16,8 @@
   <div class = "divider"></div>
 
   <!-- "Skills" grid goes here - directing, editing, cinematography, motion graphics, whatever else -->
-  <div class = "section" id="skills">
-      <!-- <h2>My Skills</h2> -->
+  <!-- <div class = "section" id="skills">
+      <h2>My Skills</h2>
       <table id = "grid" border="0" cellpadding="0" cellspacing = "0">
           <tr>
               <td>
@@ -32,8 +32,6 @@
                       <figcaption>Cinematography</figcaption>
                   </figure>
               </td>
-          </tr>
-          <tr>
               <td>
                   <figure class = "tint" onclick = "playVideo('editing')">
                       <img src = "images/Edit_PHolder_bw.png"/>
@@ -47,7 +45,7 @@
                   </figure>
               </td>
           </tr>
-      </table>
+      </table> -->
 
       <div id = "video">
       </div>
