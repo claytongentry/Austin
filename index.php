@@ -27,6 +27,8 @@
       </div>
 
       <div id = "video">
+        <div id = "video_player">
+        </div>
         <p id = "video_instructions">
           <i class="fa fa-arrow-left fa-5x"></i>
           <br/>
