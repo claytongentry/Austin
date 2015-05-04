@@ -1,14 +1,10 @@
 var close_button = "<br/><button class = 'btn' onclick='closeVideo()'>Close</button>";
 
 function closeVideo() {
-    console.log("Button pressed.");
-
-    // document.getElementById("video_instructions").style.display = "block";
-
+    // Empties player
     $("#video_player").html("");
-    console.log("Video instructions blocked.");
 
-
+    // Reveals instructions again
     $("#video_instructions").show();
 }
 
@@ -25,12 +21,6 @@ function playVideo(reel) {
             break;
         case 'cinematography':
             $.getJSON('https://www.vimeo.com/api/oembed.json?url=' + encodeURIComponent('https://vimeo.com/110931915') + '&width=970&callback=?', function(data){
-                $("#video_player").html(data.html);
-                $("#video_player").append(close_button);
-            });
-            break;
-        case 'motion_graphics':
-            $.getJSON('https://www.vimeo.com/api/oembed.json?url=' + encodeURIComponent('//') + '&width=970&callback=?', function(data){
                 $("#video_player").html(data.html);
                 $("#video_player").append(close_button);
             });
