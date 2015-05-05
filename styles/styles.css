@@ -5,7 +5,7 @@ html, body {
 body {
   width: 100%;
   overflow-x: hidden;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%), url("../images/MainHeaderPos.png");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("../images/MainHeaderPos.png");
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -33,8 +33,8 @@ form {
 }
 
 #splash {
-  height: 65vh;
-  margin-top: 250px;
+  height: 60vh;
+  margin-top: 220px;
   text-align: center;
   margin-left: auto; margin-right: auto;
   line-height: 300%;
@@ -307,7 +307,7 @@ li {
 }
 
 #resume_download {
-  width: 280px;
+  width: 250px;
 }
 
 #resume_download i {
