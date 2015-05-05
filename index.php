@@ -8,7 +8,7 @@
       <p>Fuck Bitches &bull; Get Money &bull; Make Films</p>
       <a href="images/Resume_Austin_Curzon.pdf" target = "_blank"> <!--Vimeo link-->
           <div class = "btn" id = "resume_download">
-            <p><i class="fa fa-file-pdf-o fa-1x"></i>     Download Resume</p>
+            <p><i class="fa fa-file-pdf-o fa-1x"></i>  Download Resume</p>
           </div>
       </a>
       <!--http://stackoverflow.com/questions/15158937/jquery-jump-or-scroll-to-certain-position-div-or-target-on-the-page-from-button-->
@@ -19,8 +19,11 @@
 
   <div id = "about">
 
-      <h1>About Me</h1>
+      <h2>About Me</h2>
       <img id = "profile" src = "images/Profile.png"/>
+      <div id = "about_text">
+          <p>Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen </p>
+      </div>
 
   </div>
 

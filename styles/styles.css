@@ -43,10 +43,15 @@ form {
 #about {
   background-color: white;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 #about > h1 {
+  margin: 0px;
+  color: black;
+}
+
+#about p {
   color: black;
 }
 
