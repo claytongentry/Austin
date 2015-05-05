@@ -104,7 +104,6 @@ li > a:hover {
 
 a {
   text-decoration: none;
-  height: 100%;
   color: white;
   vertical-align: middle;
   transition: 0.2s;
@@ -292,6 +291,7 @@ li {
 
 .btn > p {
   margin-top: 0px;
+  transition: 0.2s;
 }
 
 .btn:hover {
@@ -303,6 +303,21 @@ li {
 
 .btn:hover > p {
   color: black;
+  transition: 0.2s;
+}
+
+#resume_download {
+  width: 280px;
+}
+
+#resume_download i {
+  margin: 0px;
+  transition: 0.2s;
+}
+
+#resume_download:hover i {
+  color: black;
+  transition: 0.2s;
 }
 
 #submit_btn {

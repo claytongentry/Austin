@@ -12,10 +12,10 @@
       </head>
       <body>
         <!--Nav bar w/ About, CV, Contact - would suggest having it start below the splash page, then maybe stick to the top of the screen on scroll-->
-        <ul id="nav">
-            <!-- <div class = "left">
+        <!-- <ul id="nav">
+            <div class = "left">
                 <p>AC</p>
-            </div> -->
+            </div>
             <li><a href="#">About</a></li>
             <li><a href="#">Resume</a></li>
-        </ul>
+        </ul> -->
