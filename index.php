@@ -1,6 +1,6 @@
 <?php require('templates/header.php'); ?>
 
-  <div class = "divider"></div>
+  <!-- <div class = "divider"></div> -->
 
   <!--Big pretty fixed splash page here-->
   <div id="splash">
