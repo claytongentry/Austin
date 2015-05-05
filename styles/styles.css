@@ -34,14 +34,14 @@ form {
 
 #splash {
   height: 600px;
-  margin-top: 250px;
+  margin-top: 270px;
   text-align: center;
   margin-left: auto; margin-right: auto;
   line-height: 300%;
 }
 
 h1 {
-  font-family: Raleway, sans-serif;
+  font-family: Rambla, sans-serif;
   font-size: 120px;
   color: white;
   letter-spacing: 2px;
@@ -50,7 +50,7 @@ h1 {
 h2 {
   margin: 0px;
   text-align: center;
-  font-family: Raleway, sans-serif;
+  font-family: Rambla, sans-serif;
   font-size: 80px;
   letter-spacing: 2px;
 }
