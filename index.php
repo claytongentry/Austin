@@ -22,7 +22,7 @@
       <h2>About Me</h2>
       <img id = "profile" src = "images/Profile.png"/>
       <div id = "about_text">
-          <p>Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen </p>
+          <p>Hi, I'm Austin. Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen.</p>
       </div>
 
   </div>
