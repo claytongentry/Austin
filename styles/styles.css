@@ -92,7 +92,7 @@ i:hover {
 }
 
 p {
-  font-family: Didact Gothic, serif;
+  font-family: Roboto, serif;
   font-size: 24px;
   color: white;
 }
@@ -113,7 +113,7 @@ p {
 }
 
 li {
-  font-family: Didact Gothic, sans-serif;
+  font-family: Roboto, sans-serif;
   margin: 0px;
   margin-right: 20px;
   padding-top: 20px;
@@ -173,7 +173,7 @@ figcaption {
   width: 25%;
   height: 320px;
   margin-top: 50%;
-  font-family: Didact Gothic, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 24px;
   color: white;
 }*/
@@ -299,7 +299,7 @@ li {
 }
 
 .btn {
-  font-family: Didact Gothic, serif;
+  font-family: Roboto, serif;
   font-size: 24px;
   color: white;
   width: 100px;
@@ -365,12 +365,12 @@ input {
   margin: 3px;
   margin-bottom: 6px;
   margin-top: 0px;
-  font-family: Didact Gothic, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
 }
 
 textarea {
-  font-family: Didact Gothic, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   padding: 10px;
 }

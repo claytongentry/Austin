@@ -12,7 +12,7 @@
           </div>
       </a>
       <!--http://stackoverflow.com/questions/15158937/jquery-jump-or-scroll-to-certain-position-div-or-target-on-the-page-from-button-->
-      <a class = "jumper" href = "#reels"><i class="fa fa-chevron-down fa-5x"></i></a>
+      <a class = "jumper" href = "#about"><i class="fa fa-chevron-down fa-5x"></i></a>
   </div>
 
   <div class = "divider"></div>
