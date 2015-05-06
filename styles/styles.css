@@ -407,10 +407,27 @@ textarea {
 }
 
 @media (max-width: 720px) {
+
   #about p {
     margin-left: 50px;
     margin-right: 50px;
   }
+
+  #contact {
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  textarea {
+    width: 80%;
+    margin-bottom: 5px;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -439,15 +456,7 @@ textarea {
   }
 
   #contact {
-    padding: 0px;
-    padding-top: 20px;
+    padding-bottom: 0px;
   }
 
-  input {
-    width: 80%;
-  }
-
-  textarea {
-    width: 80%;
-    margin-bottom: 5px;
 }
