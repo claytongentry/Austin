@@ -18,7 +18,7 @@
     $mail->SMTPAuth = true;
     echo "Made it all the way to declaring username, password\n\n";
     $mail->Username = getenv('mail_username');
-    echo getenv('mail_username')."\n"
+    echo getenv('mail_username')."\n";
     $mail->Password = getenv('mail_pw');
     echo getenv('mail_pw')."\n";
     echo "\nUsername, password declared\n";
