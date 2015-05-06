@@ -16,10 +16,14 @@
     $mail->SMTPSecure = "tls";
     $mail->Host = "tls://smtp.gmail.com";
     $mail->SMTPAuth = true;
-    echo "Made it all the way to declaring username, password";
+    echo "Made it all the way to declaring username, password\n\n";
     $mail->Username = ENV['mail_username'];
+    echo ENV['mail_username'];
     $mail->Password = ENV['mail_pw'];
-    echo "Username, password declared";
+    echo ENV['mail_pw'];
+    echo "Username, password declared\n";
+    echo "Username is ".$mail->Username;
+    echo "Password is ".$mail->Password;
     $mail->Port = 587;
 
     // Set from
