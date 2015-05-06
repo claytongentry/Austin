@@ -13,8 +13,8 @@
     $mail = new PHPMailer();
 
     $mail->isSMTP();
-    $mail->SMTPSecure = "tls";
-    $mail->Host = "tls://smtp.gmail.com";
+    $mail->SMTPSecure = "ssl";
+    $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
     echo "Made it all the way to declaring username, password\n\n";
     $mail->Username = getenv('mail_username');
@@ -24,7 +24,7 @@
     echo "\nUsername, password declared\n";
     echo "Username is ".$mail->Username."\n";
     echo "Password is ".$mail->Password."\n";
-    $mail->Port = 587;
+    $mail->Port = 465;
 
     // Set from
     $fromname = $_POST["name"];
