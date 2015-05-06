@@ -16,20 +16,19 @@
     $mail->SMTPSecure = "tls";
     $mail->Host = "tls://smtp.gmail.com";
     $mail->SMTPAuth = true;
-    echo "Made it all the way to declaring username, password\n\n";
     $mail->Username = getenv('mail_username');
-    echo getenv('mail_username')."\n";
+    print getenv('mail_username')."\n";
     $mail->Password = getenv('mail_pw');
-    echo getenv('mail_pw')."\n";
-    echo "\nUsername, password declared\n";
-    echo "Username is ".$mail->Username."\n";
-    echo "Password is ".$mail->Password."\n";
+    print getenv('mail_pw')."\n";
+    print "\nUsername, password declared\n";
     $mail->Port = 587;
+    print "Port ".$mail->Port." declared.\n"
 
     // Set from
     $fromname = $_POST["name"];
     $fromaddress = $_POST["email"];
     $mail->SetFrom($fromaddress, $fromname);
+    print "Set From vars declared.\n"
 
     // Validate email
     if (strstr($fromaddress, '@') == false) {
@@ -39,14 +38,17 @@
 
     // Set to
     $mail->AddAddress("austinwcurzon@gmail.com");
+    print "Address added.\n";
 
     // Set body
     $mail->Body = $_POST["msg"]."\n\n"."Reply: ".$_POST["email"];
+    print "Body set.\n"
 
     // Send mail
     if ($mail->Send() == false) {
+        print "\n\n\nFAILURE\n\n\n"
         die($mail->ErrorInfo);
-        header("Location: https://austin-curzon.herokuapp.com/apologize.php");
+        // header("Location: https://austin-curzon.herokuapp.com/apologize.php");
     }
   }
   // } else {
