@@ -17,13 +17,13 @@
     $mail->Host = "tls://smtp.gmail.com";
     $mail->SMTPAuth = true;
     echo "Made it all the way to declaring username, password\n\n";
-    $mail->Username = ENV['mail_username'];
-    echo ENV['mail_username'];
-    $mail->Password = ENV['mail_pw'];
-    echo ENV['mail_pw'];
-    echo "Username, password declared\n";
-    echo "Username is ".$mail->Username;
-    echo "Password is ".$mail->Password;
+    $mail->Username = getenv('mail_username');
+    echo getenv('mail_username')."\n"
+    $mail->Password = getenv('mail_pw');
+    echo getenv('mail_pw')."\n";
+    echo "\nUsername, password declared\n";
+    echo "Username is ".$mail->Username."\n";
+    echo "Password is ".$mail->Password."\n";
     $mail->Port = 587;
 
     // Set from
