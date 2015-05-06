@@ -92,7 +92,7 @@
       <form id = "contact" method = "post" action = <?php echo htmlspecialchars('mail.php')?>>
           <input type = "text" name = "name" id = "name" placeholder = "Name"></input>
           <input type = "text" name = "email" id = "email" placeholder = "Email"></input><br/>
-          <textarea name = "msg" id = "msg" rows = "6" cols = "60" placeholder = "Your message here..."></textarea><br/>
+          <textarea name = "msg" id = "msg" placeholder = "Your message here..."></textarea><br/>
           <input id = "submit_btn" type = "submit" class = "btn" value = "Send"></input>
       </form>
   </div>
