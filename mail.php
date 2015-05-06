@@ -1,28 +1,54 @@
 <?php
 
-    // Ensure form filled out correctly
-    if (!empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["msg"])) {
+  // Require PHPMailer
+  require('PHPMailerAutoload.php');
+  require('class.smtp.php');
+  require('class.pop3.php');
+  require('class.phpmailer.php');
 
-        // Collect info from form
-        $to = "claytongentry2017@u.northwestern.edu";
-        $subject = "Excuse me! New message from ".$_POST["name"];
-        $message = $_POST["msg"];
-        $message = wordwrap($message, 70, "\r\n");
-        $headers = "Reply to: ".$_POST["email"];
+  // Validate submission
+  if (!empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["msg"])) {
 
-        // Validate mail and send w/ success check
-        if (strstr($_POST["email"], '@') == false) {
+    // Instantiate mailer
+    $mail = new PHPMailer();
 
-            header("Location: apologize.php");
-            exit;
+    $mail->isSMTP();
+    $mail->SMTPSecure = "tls";
+    $mail->Host = "tls://smtp.gmail.com";
+    $mail->SMTPAuth = true;
+    $mail->Username = ENV['mail_username'];
+    $mail->Password = ENV['mail_pw'];
+    $mail->Port = 587;
 
-        }
+    // Set from
+    $fromname = $_POST["name"];
+    $fromaddress = $_POST["email"];
+    $mail->SetFrom($fromaddress, $fromname);
 
-        mail($to, $subject, $message, $headers);
-
+    // Validate email
+    if (strstr($fromaddress, '@') == false) {
+      header("Location: http://claytongentry.com/includes/apologize.php");
+      exit;
     }
 
+    // Set to
+    $mail->AddAddress("claytongentry2017@u.northwestern.edu");
+
+    // Set body
+    $mail->Body = $_POST["msg"]."\n\n"."Reply: ".$_POST["email"];
+
+    // Send mail
+    if ($mail->Send() == false) {
+        die($mail->ErrorInfo);
+        header("Location: https://austin-curzon.herokuapp.com/apologize.php");
+    }
+  }
+  // } else {
+  //   header("Location: http://claytongentry.com/includes/apologize.php");
+  //   exit;
+  // }
 ?>
+
 
 <!DOCTYPE html>
 <html>
