@@ -58,20 +58,13 @@
 ?>
 
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'/>
-    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'/>
-    <link type = "text/css" rel = "stylesheet" href = "../styles/email.css"/>
-    <title>Thanks!</title>
-  </head>
-  <body>
+<?php require('templates/header.php');?>
+
     <div id = "main">
         <h4>Thanks!</h4>
         <p>I check my email multiple times a day. Expect a response pretty soon.</p>
         <br/>
         <a href = "../Austin"><p>Home</p></a>
     </div>
-  </body>
-</html>
+
+<?php require('templates/footer.php'); ?>
