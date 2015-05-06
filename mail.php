@@ -33,12 +33,12 @@
 
     // Validate email
     if (strstr($fromaddress, '@') == false) {
-      header("Location: http://claytongentry.com/includes/apologize.php");
+      header("Location: https://austin-curzon.herokuapp.com/apologize.php");
       exit;
     }
 
     // Set to
-    $mail->AddAddress("claytongentry2017@u.northwestern.edu");
+    $mail->AddAddress("austinwcurzon@gmail.com");
 
     // Set body
     $mail->Body = $_POST["msg"]."\n\n"."Reply: ".$_POST["email"];
