@@ -5,7 +5,7 @@
 
         // Collect info from form
         $to = "claytongentry2017@u.northwestern.edu";
-        $subject = "Excuse me! New message: ".$_POST["name"];
+        $subject = "Excuse me! New message from ".$_POST["name"];
         $message = $_POST["msg"];
         $message = wordwrap($message, 70, "\r\n");
         $headers = "Reply to: ".$_POST["email"];
@@ -37,7 +37,7 @@
         <h4>Thanks!</h4>
         <p>I check my email multiple times a day. Expect a response pretty soon.</p>
         <br/>
-        <a href = "index.php"><p>Home</p></a>
+        <a href = "../Austin"><p>Home</p></a>
     </div>
   </body>
 </html>
