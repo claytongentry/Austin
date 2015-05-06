@@ -56,7 +56,6 @@
 ?>
 
 
-<!DOCTYPE html>
 <?php require('templates/header.php'); ?>
     <div id = "main">
         <h4>Thanks!</h4>

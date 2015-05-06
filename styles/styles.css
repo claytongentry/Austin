@@ -395,6 +395,11 @@ textarea {
   transition: 0.2s;
 }
 
+#footer li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 #footer > p {
   font-size: 16px;
 }
