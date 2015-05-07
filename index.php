@@ -22,7 +22,7 @@
       <h2>About Me</h2>
       <img id = "profile" src = "images/Profile.png"/>
       <div id = "about_text">
-          <p>Hi, I'm Austin. Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen Blergen shmergen dingle dirgen.</p>
+          <p>I am a filmmaker, story-teller, and an all around creative mind. Arkansas is my home and although its filmmaking community is small, it has made a considerable impact on who I am as a filmmaker as well as a person. Cinematography, Editing, Motion Graphics, and Visual Effects are my strong suits, but I’m aiming to expand my area of expertise during my time as an undergrad. I enjoy working with others and feel that collaboration is an integral element of filmmaking.</p>
       </div>
 
   </div>
