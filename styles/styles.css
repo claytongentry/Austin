@@ -450,6 +450,14 @@ textarea {
     margin-right: 50px;
   }
 
+  #videoWrapper {
+    display: none;
+  }
+
+  #divider1 {
+    display: none;
+  }
+
   #contact {
     padding: 0px;
     padding-top: 20px;
