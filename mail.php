@@ -27,7 +27,7 @@
 
     // Validate email
     if (strstr($fromaddress, '@') == false) {
-      header("Location: https://claytongentry.com/includes/apologize.php");
+      header("Location: https://austin-curzon.herokuapp.com/apologize.php");
       exit;
     }
 
@@ -43,7 +43,7 @@
         header("Location: https://austin-curzon.herokuapp.com/apologize.php");
     }
   } else {
-    header("Location: http://claytongentry.com/includes/apologize.php");
+    header("Location: https://austin-curzon.herokuapp.com/apologize.php");
     exit;
   }
 ?>
