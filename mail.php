@@ -42,11 +42,10 @@
         die($mail->ErrorInfo);
         header("Location: https://austin-curzon.herokuapp.com/apologize.php");
     }
+  } else {
+    header("Location: http://claytongentry.com/includes/apologize.php");
+    exit;
   }
-  // } else {
-  //   header("Location: http://claytongentry.com/includes/apologize.php");
-  //   exit;
-  // }
 ?>
 
 
