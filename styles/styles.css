@@ -40,6 +40,22 @@ form {
   line-height: 300%;
 }
 
+#videoWrapper {
+  margin: 0px;
+  margin-top: -24px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 #about {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url("../images/about_bg.png");
   -webkit-background-size: cover;
@@ -410,6 +426,17 @@ textarea {
 }
 
 @media (max-width: 1200px) {
+
+  h1 {
+    line-height: 110%;
+  }
+
+  #splash {
+    line-height: 80%;
+    margin-top: 200px;
+    margin-bottom: 30px;3
+  }
+
   #about_content {
     margin-left: 200px;
     margin-right: 200px;

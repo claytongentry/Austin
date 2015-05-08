@@ -12,7 +12,13 @@
           </div>
       </a>
       <!--http://stackoverflow.com/questions/15158937/jquery-jump-or-scroll-to-certain-position-div-or-target-on-the-page-from-button-->
-      <a class = "jumper" href = "#about"><i class="fa fa-chevron-down fa-5x"></i></a>
+      <a class = "jumper" href = "#divider1"><i class="fa fa-chevron-down fa-5x"></i></a>
+  </div>
+
+  <div class = "divider" id = "divider1"></div>
+
+  <div id = "videoWrapper">
+    <iframe src="https://player.vimeo.com/video/127217007" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/127217007">Demo Reel</a> from <a href="https://vimeo.com/austincurzon">Austin Curzon</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   </div>
 
   <div class = "divider"></div>
@@ -25,7 +31,6 @@
               <p>I am a filmmaker, story-teller, and an all around creative mind. Arkansas is my home and although its filmmaking community is small, it has made a considerable impact on who I am as a filmmaker as well as a person. Cinematography, Editing, Motion Graphics, and Visual Effects are my strong suits, but I’m aiming to expand my area of expertise during my time as an undergrad. I enjoy working with others and feel that collaboration is an integral element of filmmaking.</p>
           </div>
       </div>
-
   </div>
 
   <!-- <div class = "divider"></div> -->

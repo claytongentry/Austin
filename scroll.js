@@ -1,13 +1,12 @@
 $(document).ready(function() {
-
     $(".jumper").on("click", function( e ) {
 
-        e.preventDefault();
-
+        // $("html, body").scrollTop($("#divider1").offset().top);
+        // e.preventDefault();
+        
         $("body, html").animate({
-            scrollTop: $( $(this).attr('href') ).offset().top - 80
-        }, 900);
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 600);
 
     });
-
 });
