@@ -5,7 +5,7 @@
   <!--Big pretty fixed splash page here-->
   <div id="splash">
       <h1>Austin Curzon</h1>
-      <p>Post-Production &bull; Cinematography &bull; VFX</p>
+      <p>VFX &bull; Post-Production &bull; Cinematography</p>
       <a href="images/Resume_Austin_Curzon.pdf" target = "_blank"> <!--Vimeo link-->
           <div class = "btn" id = "resume_download">
             <p><i class="fa fa-file-pdf-o fa-1x"></i>  Download Resume</p>
