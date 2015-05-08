@@ -51,9 +51,8 @@
 
 
 <?php require('templates/header.php'); ?>
-    <div id = "main">
-        <h4>Thanks!</h4>
-        <p>I check my email multiple times a day. Expect a response pretty soon.</p>
+    <div id = "main" style = "text-align: center;">
+        <h1>Thanks!</h1>
         <br/>
         <a href = ".."><p>Home</p></a>
     </div>
