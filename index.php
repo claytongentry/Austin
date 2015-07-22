@@ -3,14 +3,14 @@
   <!-- <div class = "divider"></div> -->
 
   <!--Big pretty fixed splash page here-->
-  <div id="splash">
-      <h1>Austin Curzon</h1>
+  <div id="splash" style = "margin-left: 50%">
+      <h1 style = "line-height: 85%;">Austin<br/>Curzon</h1>
       <p>VFX &bull; Post-Production &bull; Cinematography</p>
-      <a href="images/Resume_Austin_Curzon.pdf" target = "_blank"> <!--Vimeo link-->
+      <!-- <a href="images/Resume_Austin_Curzon.pdf" target = "_blank">
           <div class = "btn" id = "resume_download">
             <p><i class="fa fa-file-pdf-o fa-1x"></i>  Download Resume</p>
           </div>
-      </a>
+      </a> -->
       <!--http://stackoverflow.com/questions/15158937/jquery-jump-or-scroll-to-certain-position-div-or-target-on-the-page-from-button-->
       <a class="jumper" href = "#about"><i class="fa fa-chevron-down fa-5x"></i></a>
   </div>
@@ -22,7 +22,7 @@
           <h2>About Me</h2>
           <img id = "profile" src = "images/Profile.png"/>
           <div id = "about_text">
-              <p>I am a filmmaker, story-teller, and an all around creative mind. Arkansas is my home and although its filmmaking community is small, it has made a considerable impact on who I am as a filmmaker as well as a person. Cinematography, Editing, Motion Graphics, and Visual Effects are my strong suits, but I’m aiming to expand my area of expertise during my time as an undergrad. I enjoy working with others and feel that collaboration is an integral element of filmmaking.</p>
+              <p>I am a filmmaker, story-teller, and an all-around creative mind. Arkansas is my home and although its filmmaking community is small, it has made a considerable impact on who I am as a filmmaker as well as a person. Cinematography, Editing, Motion Graphics, and Visual Effects are my strong suits, but I’m aiming to expand my area of expertise during my time as an undergrad. I enjoy working with others and feel that collaboration is an integral element of filmmaking.</p>
           </div>
       </div>
   </div>
