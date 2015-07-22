@@ -386,7 +386,7 @@ li {
 }
 
 input {
-  width: 170px;
+  width: 181px;
   height: 20px;
   padding: 10px;
   margin: 3px;
@@ -448,6 +448,14 @@ textarea {
   #about_content {
     margin-left: 50px;
     margin-right: 50px;
+  }
+
+  #videoWrapper {
+    display: none;
+  }
+
+  #divider1 {
+    display: none;
   }
 
   #contact {
