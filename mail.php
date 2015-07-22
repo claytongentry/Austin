@@ -55,4 +55,4 @@
         <br/>
         <a href = ".."><p>Home</p></a>
     </div>
-<?php require('templates/fooder.php'); ?>
+<?php require('templates/footer.php'); ?>
