@@ -6,7 +6,7 @@ html, body {
 
 body {
   width: 100%;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("../images/Header_Update_July2015.png");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("../images/MainHeaderPos.png");
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
