@@ -3,8 +3,8 @@
   <!-- <div class = "divider"></div> -->
 
   <!--Big pretty fixed splash page here-->
-  <div id="splash" style = "margin-left: 50%">
-      <h1 style = "line-height: 85%;">Austin<br/>Curzon</h1>
+  <div id="splash">
+      <h1 style = "line-height: 85%;">Austin Curzon</h1>
       <p>VFX &bull; Post-Production &bull; Cinematography</p>
       <a href="images/Resume_Austin_Curzon.pdf" target = "_blank">
           <div class = "btn" id = "resume_download">
@@ -31,65 +31,6 @@
   <div id = "videoWrapper">
     <iframe src="https://player.vimeo.com/video/127217007" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/127217007">Demo Reel</a> from <a href="https://vimeo.com/austincurzon">Austin Curzon</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   </div>
-
-  <!-- <div class = "divider"></div> -->
-
-  <!-- <div id = "reels">
-
-      <div id = "tabs_container">
-          <ul id = "reel_tabs">
-            <li class = "hvr-rectangle-out" onclick = "playVideo('directing')">Directing</li>
-            <li class = "hvr-rectangle-out" onclick = "playVideo('editing')">Editing</li>
-            <li class = "hvr-rectangle-out" onclick = "playVideo('cinematography')">Cinematography</li>
-            <li class = "hvr-rectangle-out" onclick = "playVideo('vfx')">VFX</li>
-          </ul>
-      </div>
-
-      <div id = "video">
-        <div id = "video_player">
-        </div>
-        <p id = "video_instructions">
-          <i class="fa fa-arrow-left fa-5x"></i>
-          <br/>
-          Select a reel to play
-        </p>
-      </div>
-
-  </div> -->
-
-
-
-  <!--"Skills" grid goes here - directing, editing, cinematography, motion graphics, whatever else -->
-  <!-- <div class = "section" id="skills">
-      <h2>My Skills</h2>
-      <table id = "grid" border="0" cellpadding="0" cellspacing = "0">
-          <tr>
-              <td>
-                  <figure class = "tint" onclick = "playVideo('directing')" >
-                      <img src = "images/Dir_PHeader_bw.png"/>
-                      <figcaption>Directing</figcaption>
-                  </figure>
-              </td>
-              <td>
-                  <figure class = "tint" onclick = "playVideo('cinematography')">
-                      <img src = "images/Cine_PHeader_bw.png"/>
-                      <figcaption>Cinematography</figcaption>
-                  </figure>
-              </td>
-              <td>
-                  <figure class = "tint" onclick = "playVideo('editing')">
-                      <img src = "images/Edit_PHolder_bw.png"/>
-                      <figcaption>Editing</figcaption>
-                  </figure>
-              </td>
-              <td>
-                  <figure class = "tint" onclick = "playVideo('vfx')">
-                      <img src = "images/VFX_PHeader_bw.png"/>
-                      <figcaption>VFX</figcaption>
-                  </figure>
-              </td>
-          </tr>
-      </table> -->
 
   <div class = "divider"></div>
   <div class = "section" id = "contact">
