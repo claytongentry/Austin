@@ -6,12 +6,11 @@
   <div id="splash" style = "margin-left: 50%">
       <h1 style = "line-height: 85%;">Austin<br/>Curzon</h1>
       <p>VFX &bull; Post-Production &bull; Cinematography</p>
-      <!-- <a href="images/Resume_Austin_Curzon.pdf" target = "_blank">
+      <a href="images/Resume_Austin_Curzon.pdf" target = "_blank">
           <div class = "btn" id = "resume_download">
             <p><i class="fa fa-file-pdf-o fa-1x"></i>  Download Resume</p>
           </div>
-      </a> -->
-      <!--http://stackoverflow.com/questions/15158937/jquery-jump-or-scroll-to-certain-position-div-or-target-on-the-page-from-button-->
+      </a>
       <a class="jumper" href = "#about"><i class="fa fa-chevron-down fa-5x"></i></a>
   </div>
 
