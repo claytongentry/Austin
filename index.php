@@ -5,8 +5,8 @@
   <!--Big pretty fixed splash page here-->
   <div id="splash">
       <h1 style = "line-height: 85%;">Austin Curzon</h1>
-      <p>VFX &bull; Post-Production &bull; Cinematography</p>
-      <a href="images/Resume_Austin_Curzon.pdf" target = "_blank">
+      <p>VFX &bull; Post-Production &bull; Cinematography &bull; Animation</p>
+      <a href="images/Resume_Austin_Curzon.pdf" target = "_blank" style = 'margin-top: 10px;'>
           <div class = "btn" id = "resume_download">
             <p><i class="fa fa-file-pdf-o fa-1x"></i>  Download Resume</p>
           </div>
@@ -21,7 +21,7 @@
           <h2>About Me</h2>
           <img id = "profile" src = "images/Profile.png"/>
           <div id = "about_text">
-              <p>I am a filmmaker, story-teller, and an all-around creative mind. Arkansas is my home and although its filmmaking community is small, it has made a considerable impact on who I am as a filmmaker as well as a person. Cinematography, Editing, Motion Graphics, and Visual Effects are my strong suits, but I’m aiming to expand my area of expertise during my time as an undergrad. I enjoy working with others and feel that collaboration is an integral element of filmmaking.</p>
+              <p>I am a filmmaker, story-teller, animator, and an all-around creative mind. Arkansas is my home and although its filmmaking community is small, it has made a considerable impact on who I am as a filmmaker as well as a person. Cinematography, Editing, Motion Graphics, and Visual Effects are my strong suits, but I’m aiming to expand my area of expertise during my time as an undergrad. I enjoy working with others and feel that collaboration is an integral element of filmmaking.</p>
           </div>
       </div>
   </div>
