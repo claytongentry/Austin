@@ -6,8 +6,8 @@
   <div id="splash">
       <h1 style = "line-height: 85%;">Austin Curzon</h1>
       <p>VFX &bull; Post-Production &bull; Cinematography &bull; Animation</p>
-      <a href="images/Resume_Austin_Curzon.pdf" target = "_blank" style = 'margin-top: 10px;'>
-          <div class = "btn" id = "resume_download">
+      <a href="images/Resume_Austin_Curzon.pdf" target = "_blank">
+          <div class = "btn" id = "resume_download" style = 'margin-top: 20px;'>
             <p><i class="fa fa-file-pdf-o fa-1x"></i>  Download Resume</p>
           </div>
       </a>
