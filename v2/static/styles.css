@@ -1,0 +1,18 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: gray;
+}
+
+h1 {
+  text-align: center;
+}
+
+.jumbotron {
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 1px solid white;
+  border-radius: 50px;
+  background-color: gray;
+  color: white;
+}
